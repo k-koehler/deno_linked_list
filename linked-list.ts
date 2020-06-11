@@ -177,6 +177,11 @@ export default class LinkedList<T> {
     }
   }
 
+  /**
+   * creates a list from an iterable
+   * @param iterable
+   * @returns the list
+   */
   public static from<T>(iterable: Iterable<T>) {
     const linkedList = new LinkedList<T>();
     for (const it of iterable) {
