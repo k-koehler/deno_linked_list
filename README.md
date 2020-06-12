@@ -18,7 +18,7 @@
 
 Get the length of the linked list
 
-### append
+### append(t:T)
 
 Add a new item to the end of the list
 
