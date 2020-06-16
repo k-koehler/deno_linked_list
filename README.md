@@ -2,7 +2,7 @@
 
 ## Basic Usage Example
 
-    import LinkedList from "https://deno.land/x/linked_list/master/mod.ts";
+    import LinkedList from "https://deno.land/x/linked_list/mod.ts";
 
     const  list = new LinkedList();
     list.append("hello").append("world");
